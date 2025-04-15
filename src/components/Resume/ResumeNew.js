@@ -9,7 +9,8 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 // ✅ Direct path from the public folder
-const pdf = "/Ador_Negash_Resume.pdf";
+//const pdf = "/Ador_Negash_Resume.pdf";
+const pdf = `${window.location.origin}/Ador_Negash_Resume.pdf`;
 
 function ResumeNew() {
   const [width, setWidth] = useState(window.innerWidth);
