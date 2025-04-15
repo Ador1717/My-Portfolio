@@ -9,7 +9,6 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 // ✅ Direct path from the public folder
-//const pdf = "/Ador_Negash_Resume.pdf";
 const pdf = `${window.location.origin}/Ador_Negash_Resume.pdf`;
 
 function ResumeNew() {
@@ -37,14 +36,17 @@ function ResumeNew() {
           </Button>
         </Row>
 
-        <Row className="resume d-flex justify-content-center">
-          <Document file={pdf}>
-            <Page
-              pageNumber={1}
-              scale={width > 1200 ? 2.0 : width > 786 ? 1.5 : 0.8}
-            />
-          </Document>
+        <Row className="d-flex justify-content-center align-items-center" style={{ minHeight: "80vh" }}>
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <Document file={pdf}>
+              <Page
+                pageNumber={1}
+                scale={width > 1200 ? 2.0 : width > 786 ? 1.5 : 0.8}
+              />
+            </Document>
+          </div>
         </Row>
+
 
         <Row style={{ justifyContent: "center", position: "relative", paddingTop: "20px" }}>
           <Button
