@@ -19,12 +19,12 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I started programming in early 2021, when I joined Computer science Inholland university of applied sciences.  
+              I started programming in early 2022, when I joined Computer science Inholland university of applied sciences.  
               <br />
               <br />I began with <b className="purple">C#</b>, where I learned the fundamentals of programming, focusing on <b className="purple">object-oriented programming</b> principles and exploring some common <b className="purple">design patterns</b>. 
               <i>
               <br /> After that, I transitioned to <b className="purple">Java</b> and started developing full-stack web applications using <b className="purple">Spring Boot</b>, which gave me hands-on experience building robust and scalable backend systems.
-              <br /> I'm conversant with Java, C#, Python, PHP, Javascript
+              <br /> I'm proficient in Java, C#, Python, PHP, and JavaScript.
               </i>
               <br />
               <br />

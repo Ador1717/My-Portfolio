@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Ador. </span>
             Born and raised in <span className="purple"> Addis Ababa</span>, Ethiopia. And have spent my teen-age life in <b className="purple">Leiden</b>, Netherlands, blending both cultures into who I am today.
             <br />
-            I'm a software engineering 3rd year student at Inholland University.
+            I'm a 3rd year software engineering student at Inholland University.
             <br />
             
             <br />
@@ -25,7 +25,7 @@ function AboutCard() {
               <ImPointRight /> Playing Table Tennis
             </li>
             <li className="about-activity">
-              <ImPointRight /> Cooking
+              <ImPointRight /> Working on side projects
             </li>
           </ul>
 
